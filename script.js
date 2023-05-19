@@ -171,9 +171,10 @@ audioElement.addEventListener('ended',()=>{
     element.innerHTML = `${mins}:${secs}`;
 })*/
 
-audioElement.addEventListener('playing',()=>{
+// background image changer
+/*audioElement.addEventListener('playing',()=>{
     
     document.getElementById("container").style.backgroundImage = `url("${songs[songIndex].coverPath}")`;
     let bgI = document.getElementById("container").style;
     console.log(bgI);
-})
+})*/
